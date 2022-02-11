@@ -58,8 +58,8 @@ resource "aws_instance" "web" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-test-bucketzainab"
-  acl    = "private"
+  bucket = "my-test-bucketzainab2"
+  
 
   tags = {
     Name        = "My bucket"
